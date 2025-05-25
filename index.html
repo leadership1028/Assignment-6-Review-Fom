@@ -1,0 +1,60 @@
+  <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review form</title>
+ </head>
+ <body>
+    <form>
+<fieldset>
+<legend>
+Your Details;
+</legend>
+<label for="username">Name:</label>
+<input type="text"id="username" placeholder="Name" maxlength="12">
+<br>
+<br>
+<label for="useremail">Email:</label>
+<input type="text"id="useremail"placeholder="Email"maxlength="20">
+</fieldset>
+<br>
+<fieldset>
+<legend>
+   your Review;
+</legend>
+<br>
+<p>
+   How did you here about us?
+<select >
+   <option value="Google">Google</option>
+   <option>Youtube</option>
+   <option>Instagram</option>
+   <option>Facebook</option>
+</select>
+</p>
+<br>
+<p>
+   Would you visit again 
+  <br>
+  
+  <input type="radio" name="visit_again" id="use_yes" value="yes">
+  <label for="use_yes">YES</label>
+
+  <input type="radio" name="visit_again" id="use_no" value="no">
+  <label for="use_no">NO</label>
+
+  <input type="radio" name="visit_again" id="use_maybe" value="maybe">
+  <label for="use_maybe">Maybe</label>
+<br>
+  <label for="comment">Comments:</label><br>
+  <textarea name="comment" id="comment"placeholder="Comments..."></textarea>
+  <br>
+  <input type="checkbox"id="comment">
+  <label for="comment">Sign me up for email updates</label><br>
+  <label for="us4"> Submit</label>
+  <input type="submit" id="us4" user="submit review">
+</fieldset>
+</form>
+ </body>
+ </html>
